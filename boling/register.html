@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Register new member</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line">
+<link rel="stylesheet" type="text/css" href="css/register.css">
+<link rel="icon" href="img/logoi.png" type="image/gif">
+
+<head>
+  <header>
+    
+  </header>
+<body>
+    
+       
+        
+    
+  <div class="cont">
+    <div class="dd">
+      <center>
+         <div class="loginform">
+  
+    <br><center>
+      <h2>REGISTER NEW MEMBER</h2><br></center>
+   
+  
+  <form method="POST" action="register.php" enctype="multipart/form-data" >
+<center>
+<div class="app-paper">
+
+    <input type="radio" name="radiogender" id="1" class="gender" value="female">
+    <label for="1" class="lbl-radio">
+      <div class="displaybox">
+        <div class="image"><img src="img/gavt.png"></div>
+      </div>
+    </label>
+
+    <input type="radio" name="radiogender" id="2" class="gender" value="male">
+    <label for="2" class="lbl-radio">
+      <div class="displaybox">
+        <div class="image"><img src="img/bavt.png"></div>
+      </div>
+    </label>
+
+</div>
+</center>
+    <br><br>
+    Portrait image : <input type="file" name="uimage" id="uimage" required>
+    <br><br>
+     <input type="text" name="fname" placeholder="First name" required>&nbsp;
+     <input type="text" name="lname" placeholder="Last name" required>     <br><br>
+     <input type="phone" name="phone" placeholder="Phone" required> &nbsp;   
+     <input type="Email" name="email" placeholder="Email" required> <br><br>
+     <input class="adr" type="textarea" name="address" placeholder="Address" required>  <br><br>
+     <input type="text" name="ic" placeholder="No. ic" required> <br><br>
+     <input type="text" name="uname" placeholder="Username" required> &nbsp; 
+     <input type="password" name="pass" placeholder="Password" required>
+
+
+     <br><br><br>
+      <button class="submit" type="submit" name="submit" value="submit">Register</button>
+      <button class="reset" type="reset" value="reset">Reset</button>
+     <br>
+      <br><br><a href="login.html">Back</a>
+    </form>
+      </center>
+    </div>
+  </div>
+</body>
+<footer>
+  <center>
+  <p class="ft">
+Copyright&#169; 2021 by Strikers 
+</p></center>
+</footer>
+
+
+</html>

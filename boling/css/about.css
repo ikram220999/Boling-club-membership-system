@@ -1,0 +1,195 @@
+h1,h2,h3,h4,h5,h6 {font-family: "Century Gothic", sans-serif}
+.w3-bar,h1,button {font-family: "Century Gothic", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+
+body{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.3)),url(../img/wall.png);
+  background-size: cover;
+
+}
+
+
+button.submit{
+  background-color: white;
+  width: 130px;
+  border: 2px solid #00B845;
+  border-radius: 50px;
+ 
+  font-size: 15px;
+  color: #00B845;
+  margin-right: 10px;
+ 
+  padding: 10px;
+
+
+}
+
+button.submit:hover{
+  color: white;
+
+ background-color: #00B845;
+  transition: 0.5s ease;
+}
+
+button.reset{
+  background-color: white;
+  width: 130px;
+  border: 2px solid #E50000;
+  border-radius: 50px;
+ 
+  font-size: 15px;
+  color: #E50000;
+ 
+ 
+  padding: 10px;
+
+
+}
+
+button.reset:hover{
+  color: white;
+
+ background-color: #E50000;
+  transition: 0.5s ease;
+}
+
+
+footer{
+  position: absolute;
+  width: 100%;
+  margin-top: 100px;
+  background-color: white;
+ 
+}
+
+header{
+  width: 100%;
+  height: 60px;
+  background-color: white;
+  
+}
+
+p.ft{
+  padding: 20px; 
+    font-family: Century Gothic;
+  font-size: 15px;
+  font-style: italic;
+  color: grey;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+.cont{
+  height: 90vh;
+  margin: 0;
+  
+}
+
+.dd{
+  margin: 0;
+  position: relative;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.matrik{
+  font-weight: 500;
+  font-size: 50px;
+  margin: 0;
+  position: relative;
+  letter-spacing: 10px;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.matrik:hover{
+  padding-left: 10px;
+  transition: 0.2s ease;
+  letter-spacing: 20px;
+  transition: 0.1s ease;
+
+
+}
+
+.reg{
+  color: blue;
+}
+
+
+
+.loginform{
+
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 1550px;
+  height: 900px;
+  background-color: white;
+  border-radius: 20px;
+  
+}
+
+input{
+  padding: 5px;
+  font-size: 13px;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+}
+
+.gender{
+  display: none;
+}
+
+.app-paper{
+  margin-left: 130px;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: 100px 100px;
+  grid-gap: 100px;
+}
+
+.lbl-radio{
+width: 132px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px -4px rgba(0, 0, 0 ,0.35);
+  border: 2px solid white;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+}
+
+
+
+input[type=radio]:checked + .lbl-radio{
+  border: 2px solid;
+  border-color: #3A3939;
+}
+
+.adr{
+  width: 400px;
+}
+
+th{
+  font-family: Century Gothic;
+  font-size: 20px;
+  width: 250px;
+  padding-right: 18px;
+  padding-left: 18px;
+  padding-bottom: 10px;
+}
+
+td{
+
+ width: 250px;
+ padding-right: 18px;
+  padding-left: 18px;
+  padding-top: 20px;
+}
+
+img{
+  width: 250px;
+  border-radius: 150px;
+  box-shadow: 0px 4px 12px -4px rgba(0, 0, 0 ,0.15);
+}

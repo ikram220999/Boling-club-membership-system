@@ -1,0 +1,137 @@
+h1,h2,h3,h4,h5,h6 {font-family: "Century Gothic", sans-serif}
+.w3-bar,h1,button {font-family: "Century Gothic", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+
+body{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.3)),url(../img/wall.png);
+  background-size: cover;
+
+}
+
+
+footer{
+  width: 100%;
+  margin-bottom: 0px;
+  background-color: white;
+ 
+}
+
+header{
+  width: 100%;
+  height: 60px;
+  background-color: white;
+  
+}
+
+p.ft{
+  padding: 20px; 
+    font-family: Century Gothic;
+  font-size: 15px;
+  font-style: italic;
+  color: grey;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+.cont{
+  height: 90vh;
+  margin: 0;
+  
+}
+
+.dd{
+  margin: 0;
+  position: relative;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.loginform{
+
+  width: 800px;
+  height: 580px;
+  background-color: white;
+  border-radius: 20px;
+  
+}
+
+
+
+table{
+  font-family: "Century Gothic";
+  border-bottom: 1px solid lightgrey;
+  width: 650px;
+  padding: 10px;
+}
+
+tr,td{
+  padding: 5px;
+}
+
+
+.back{
+  margin-top: 10px;
+  background-color: white;
+  width: 130px;
+  border: 2px solid #E50000;
+  border-radius: 50px;
+ 
+  font-size: 15px;
+  color: #E50000;
+  margin-right: 10px;
+ 
+  padding-top: 12px;
+  padding-bottom: 12px; 
+  padding-left: 40px;
+  padding-right: 40px;
+
+}
+
+.back:hover{
+  color: white;
+
+ background-color: #E50000;
+  transition: 0.5s ease;
+}
+
+button.sv{
+  margin-top: 10px;
+  background-color: white;
+  width: 130px;
+  border: 2px solid #00B845;
+  border-radius: 50px;
+ 
+  font-size: 15px;
+  color: #00B845;
+  margin-right: 10px;
+ 
+  padding: 10px;
+}
+
+button.sv:hover{
+  color: white;
+
+ background-color: #00B845;
+  transition: 0.5s ease;
+}
+
+input{
+  width: 230px;
+  font-size: 13px;
+  padding: 5px;
+  border: 1px solid grey;
+  border-radius: 10px;
+}
+
+.adr{
+  width: 465px;
+}
+
+form{
+  font-family: Century Gothic;
+  font-size: 16px;
+}
